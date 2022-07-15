@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*------------- all css coments okk ------------- */
+.menu_bg {
+    background-color: #150035;
+}
+
+.navbar-brand img {
+    position: absolute;
+    content: '';
+    width: 165px;
+    height: 100px;
+    top: -15px;
+    left: 210px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 1.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: #441a7e !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ad239d !important;
+}
+
+.nav_btn a {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 60px;
+    top: 37px;
+    right: 198px;
+    background-color: #ea2bc7;
+    font-size: 28px;
+    text-align: center;
+    color: wheat;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* ------------- nav part end --------------- */
+
+
+
+/* ----------- banner part start ------------- */
+#banner {
+    background-color: #150035;
+    padding-top: 45px;
+}
+
+#banner .banner_btn {
+    position: absolute;
+    content: '';
+    right: 180px;
+    bottom: 0;
+    width: 400px;
+    color: #fff;
+}
+
+#banner .banner_btn a {
+    width: 80px;
+    height: 40px;
+    font-size: 28px;
+    background-color: #ea2bc7;
+    text-align: center;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* ---------banner part end ----------- */
+
+
+/* ---------- games part start ---------- */
+#game {
+    background-color: #0b001b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#game .game_top h1 {
+    color: #d18619;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+#game .game_item {
+    position: relative;
+}
+
+#game .game_item img {
+    width: 100%;
+}
+
+#game .game_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#game .game_overlay .game_over_txt h2 {
+    padding-bottom: 30px;
+}
+
+#game .game_overlay .game_over_txt a {
+    width: 100px;
+    height: 30px;
+    padding: 10px 20px;
+    background-color: #792ce1;
+    color: #ffffff !important;
+    font-weight: bolder;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#game .game_overlay .game_over_txt {
+    margin: 50px 0;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#game .game_item:hover .game_overlay {
+    opacity: 1;
+}
+
+/* ------------- games part end -------------- */
+
+
+/* ------------ spin part start ------------- */
+#spin {
+    background-color: #150035;
+    padding-top: 25px;
+}
+
+#spin .spin_img img {
+    width: 100%;
+}
+
+#spin .spin_txt h2 {
+    padding: 30px 0;
+    font-size: 50px;
+    color: #d18619;
+    font-weight: bolder;
+}
+
+#spin .spin_txt p {
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+#spin .spin_txt a {
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    background-color: #ea2bc7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* -------------------- spin part end ------------- */
+
+
+/* ------------- pricing part start ------------------ */
+#pricing {
+    padding: 50px 0;
+    background-color: #0b001b;
+}
+
+#pricing .pri_top h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #d18619;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#pricing .pri_inner {
+    width: 100%;
+    height: 50px;
+    background-color: #8234e7;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#pricing .pri_inner a {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#pricing .pri_inner:hover {
+    background-color: #d18619;
+}
+
+#pricing .pri_item {
+    position: relative;
+    background-color: #9244f4;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+#pricing .pri_item h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #d18619;
+}
+
+#pricing .pri_item h3 {
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+#pricing .pri_item p {
+    margin-top: 5px;
+}
+
+#pricing .pri_btn {
+    position: absolute;
+    content: '';
+    left: 112px;
+    bottom: -19px;
+}
+
+#pricing .pri_btn a {
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    background-color: #8234e7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#pricing .pri_item:hover .pri_btn a {
+    background-color: #d18619;
+}
+
+/* ----------------- pricing part end ------------------ */
+
+
+/* ------------ accordion part start -------------------- */
+#accrodion {
+    padding: 50px 0;
+    background-color: #150035 !important;
+}
+
+#accrodion .acco_top h2 {
+    color: #d18619;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#accrodion .today {
+    width: 100%;
+    height: 350px;
+    overflow: scroll;
+}
+
+#accrodion .today_left h5 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+#accrodion .today_icon {
+    margin-bottom: 16px;
+}
+
+#accrodion .today_img {
+    padding-left: 5px;
+}
+
+#accrodion .today_img img {
+    display: block;
+}
+
+#accrodion .today_right h5 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* --------- accordion part end ----------- */
+
+
+/* ---------- pyment part start ------------- */
+#pyment {
+    background-color: #8739eb;
+    padding: 30px 0;
+}
+
+#pyment .py_item h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#pyment .py_item input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ad239d;
+}
+
+#pyment .py_item img {
+    padding-left: 8px;
+}
+
+/* --------- pyment part end ----------------  */
+
+
+/* ------------ footer part start --------------- */
+#footer {
+    padding-top: 50px;
+    background-color: #0b001b;
+}
+
+#footer .foter_left {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+#footer .foter_left h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#footer .foter_left p {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+#footer .foter_left .foter_icon a i {
+    width: 40px;
+    height: 40px;
+    background-color: #772adf;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+#footer .foter_left .foter_icon a i:hover {
+    background-color: #d18619;
+}
+
+#footer .foter_middle {
+    color: #ffffff;
+    font-family: sans-serif;
+    position: relative;
+}
+
+#footer .foter_middle h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+#footer .middle_over {
+    position: absolute;
+    content: '';
+    top: 61px;
+    right: 40px;
+}
+
+#footer .foter_right {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+#footer .foter_right h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#footer .foter_bottom {
+    border-top: 1px solid #d18619;
+    text-align: center;
+    color: #fff;
+    background-color: #0b001b;
+}
+
+#footer .foter_bottom p {
+    padding-top: 10px;
+}
+
+/*  ------------ foooter part end ------------------- */
